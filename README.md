@@ -10,4 +10,7 @@ Activation: ReLU is used to maintain non-linearity.<br />
 
  Verified the output using MATLAB
  The attached pdf contains the ouput waveforms. 
+
+ Input is fed directly through a .txt file. 
+ Input can also be fed sequentially to an array. That was implemented initially. That part of FSM is commented in conv_unroll and conv1.
  
