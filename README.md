@@ -7,10 +7,7 @@ Activation: ReLU is applied to introduce non-linearity. <br />
 Convolutional Layer: Applies 5 filters of size 3×3 for deeper feature extraction.<br />
 Max Pooling: Again, 2×2 pooling reduces dimensionality.<br />
 Activation: ReLU is used to maintain non-linearity.<br />
-(3)Output Layer:<br />
-The resulting feature maps are flattened into a vector.<br />
-A Sigmoid activation function is applied to generate the final output.<br />
-![image](https://github.com/user-attachments/assets/445fa9a8-1ce3-455a-a141-4175336c4071)
+
  Verified the output using MATLAB
  The attached pdf contains the ouput waveforms. 
  
