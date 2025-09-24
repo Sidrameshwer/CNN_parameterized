@@ -9,8 +9,16 @@ Max Pooling: Again, 2×2 pooling reduces dimensionality.<br />
 Activation: ReLU is used to maintain non-linearity.<br />
 
  Verified the output using MATLAB
- The attached pdf contains the ouput waveforms. 
-
- Input is fed directly through a .txt file. 
- Input can also be fed sequentially to an array. That was implemented initially. That part of FSM is commented in conv_unroll and conv1.
  
+ - Input is fed directly through a .txt file. 
+ - Input can also be fed sequentially to an array. That was implemented initially. That part of FSM is commented in conv_unroll and conv1.
+
+__Layer 1 before applying ReLu__
+<img width="1049" height="593" alt="Layer 1 before applying ReLu" src="https://github.com/user-attachments/assets/1069aeb3-6797-4a26-9379-e14ab5447d4f" />
+
+__MATLAB output of Layer 1__
+<img width="804" height="587" alt="Layer 1 MATLAB ouput" src="https://github.com/user-attachments/assets/86372eea-64c7-49a7-bada-e20034c9ea86" />
+
+__Layer 1 after applyinh ReLu__
+<img width="933" height="518" alt="Layer 1 after applying ReLu" src="https://github.com/user-attachments/assets/8742e8f3-4ad9-4b02-936f-eac921dc91dc" />
+
