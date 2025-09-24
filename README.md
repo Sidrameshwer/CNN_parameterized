@@ -31,3 +31,6 @@ __Layer 2(Final output)__
 - Sigmoid implementation was done, but it worked only for very short range of inputs.
 - Thus part can be added later.
 
+__Post-Synthesis Functional Simulation__
+<img width="1918" height="866" alt="image" src="https://github.com/user-attachments/assets/42ee164e-c790-4e36-bf4b-28f9a8d0a2c9" />
+
