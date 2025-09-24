@@ -9,6 +9,8 @@ Max Pooling: Again, 2×2 pooling reduces dimensionality.<br />
 Activation: ReLU is used to maintain non-linearity.<br />
 
  Verified the output using MATLAB
+
+ 
  
  - Input is fed directly through a .txt file. 
  - Input can also be fed sequentially to an array. That was implemented initially. That part of FSM is commented in conv_unroll and conv1.
@@ -19,6 +21,13 @@ __Layer 1 before applying ReLu__
 __MATLAB output of Layer 1__
 <img width="804" height="587" alt="Layer 1 MATLAB ouput" src="https://github.com/user-attachments/assets/86372eea-64c7-49a7-bada-e20034c9ea86" />
 
-__Layer 1 after applyinh ReLu__
+__Layer 1 after applying ReLu__
 <img width="933" height="518" alt="Layer 1 after applying ReLu" src="https://github.com/user-attachments/assets/8742e8f3-4ad9-4b02-936f-eac921dc91dc" />
+
+__Layer 2(Final output)__
+<img width="1911" height="959" alt="image" src="https://github.com/user-attachments/assets/8df9ffbf-f4cd-4a2e-b38e-a2fa1e86839e" />
+
+- Obtained output can be falttened and pass them through fully conncted layer and through a activation function like sigmoid to classify the input.
+- Sigmoid implementation was done, but it worked only for very short range of inputs.
+- Thus part can be added later.
 
